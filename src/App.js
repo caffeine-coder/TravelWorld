@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Menu from './Menu/Menu';
+import CardList from './CardList/CardList';
+import TravelTypeList from './TravelTypeList/TravelTypeList';
+import DateRange from './Date/DateRange';
+import GuestCardList from './GuestCardList/GuestCardList';
+import FoodCardList from './FoodCardList/FoodCardList';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu />
+      <div className="itenary">
+        <text>Itinerary</text>
+        <br />
+        <text className="destination">Select your destination</text>
+      </div>
+      <CardList />
+      <div className="traveltype">
+        <text>Type of Travel</text>
+      </div>
+      <TravelTypeList />
+      <div className="date">
+        <text>Select Dates</text>
+      </div>
+      <DateRange />
+      <div className="guests">
+        <text>Select Number of Guests</text>
+      </div>
+      <GuestCardList />
+      <div className="food">
+        <text>Food Preference</text>
+      </div>
+      <FoodCardList />
     </div>
   );
 }

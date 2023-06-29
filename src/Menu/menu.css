@@ -1,0 +1,56 @@
+.menubarcontainer{
+    background-color: #D9D9D9;
+    height: 100px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.itemscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuitems {
+    margin-top: 10px;
+}
+
+
+.menuitems .item {
+    margin-left: 40px;
+    font-weight:400;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.itemscontainer .logo {
+    margin-top: 15px;
+}
+
+.menuitems .planbutton {
+    margin-left: 40px;
+    margin-right: 10px;
+    appearance: none;
+  background: white;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+  line-height: 1;
+  padding: 1em 1.5em;
+  position: relative;
+} 
+
+
+.menuitems .planbutton  > span {
+    display: block;
+    position: relative;
+    z-index: 1;
+    color: #06698F;
+    font-weight:400;
+  }

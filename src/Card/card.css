@@ -1,0 +1,40 @@
+.card {
+    position: relative;
+}
+
+.cardimage {
+    margin-left: 40px;
+    border-radius: 30px;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 25px;
+    left: 60px;
+    font-size: 18px;
+    color: white;
+    z-index: 2;
+}
+
+.checkbox {
+   z-index: 3;
+   top: 15px;
+   right: 30px;
+   position: absolute;
+}
+
+.overlay {
+    content: '';
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+    bottom: 4px;
+    left: 40px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 70%,rgb(15, 15, 15) 100%);
+}

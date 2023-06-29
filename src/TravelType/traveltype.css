@@ -1,0 +1,49 @@
+.travelcardcontainer {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 60px;
+    width: 180px;
+}
+
+.travelcard {
+    position: relative;
+    margin-left: 40px;
+    border-radius: 30px;
+    width: 220px;
+    height: 100px;
+    background-color: white;
+    border-color: white;
+    z-index: 1;
+}
+
+.travelcardcircle {
+    background-color: #F8F8F8;
+    border-color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 105px;
+    bottom: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.traveltext{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 10px;
+    color: #06698F;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.traveltypeimg{
+    position: absolute;
+    width: 115px;
+    height: 135px;
+    z-index: 1;
+    bottom: 35px;
+    left: 90px;
+}
