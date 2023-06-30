@@ -5,6 +5,8 @@ import TravelTypeList from './TravelTypeList/TravelTypeList';
 import DateRange from './Date/DateRange';
 import GuestCardList from './GuestCardList/GuestCardList';
 import FoodCardList from './FoodCardList/FoodCardList';
+import Requirements from './Requirements/Requirements';
+import Accordion from './Accordion/Accordion';
 function App() {
   return (
     <div className="App">
@@ -31,6 +33,11 @@ function App() {
         <text>Food Preference</text>
       </div>
       <FoodCardList />
+      <Requirements />
+      <div className="faq">
+        <text>FAQs</text>
+      </div>
+      <Accordion />
     </div>
   );
 }

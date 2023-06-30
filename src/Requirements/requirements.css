@@ -1,0 +1,46 @@
+.requirements {
+    position: relative;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.textcontainer {
+    width: 80em;
+    height: 10em;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.text {
+    resize: none;
+    outline: none;
+    margin: 15px;
+    width: 55em;
+    height: 7em;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+}
+
+
+.text::placeholder {
+    opacity: 0.5;
+    color: #06698F;
+}
+
+
+.btn {
+    position: absolute;
+    top: 55px;
+    left: 72em;
+    appearance: none;
+  background: #06698F;
+  border-radius: 15px;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+  line-height: 1;
+  padding: 1em 1.5em;
+}
