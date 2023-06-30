@@ -7,6 +7,8 @@ import GuestCardList from './GuestCardList/GuestCardList';
 import FoodCardList from './FoodCardList/FoodCardList';
 import Requirements from './Requirements/Requirements';
 import Accordion from './Accordion/Accordion';
+import Newsletter from './Newsletter/Newsletter';
+import Divider from './Divider/Divider';
 function App() {
   return (
     <div className="App">
@@ -38,6 +40,8 @@ function App() {
         <text>FAQs</text>
       </div>
       <Accordion />
+      <Newsletter />
+      <Divider />
     </div>
   );
 }

@@ -1,0 +1,53 @@
+.firstdivider {
+    position: relative;
+    margin-top: 10em;
+    color: #7db6cc;
+    background-color:#7db6cc ;
+    border: 1px solid #7db6cc;
+    width: 100%;
+    height: 0.5em;
+    flex-direction: column;
+}
+
+.middledivider {
+    position: relative;
+    margin-top: 1em;
+    color: #06698F;
+    background-color:#06698F ;
+    border: 1px solid #06698F;
+    width: 100%;
+    height: 1.2em;
+}
+
+
+.lastdivider {
+    position: relative;
+    margin-top: 0.5em;
+    color: #7db6cc;
+    background-color:#7db6cc ;
+    border: 1px solid #7db6cc;
+    width: 100%;
+    height: 0.5em;
+}
+
+.divimg {
+    position: absolute;
+    margin: 15px;
+    left:10em;
+    bottom: -5em;
+    z-index: 1;
+}
+
+.divimgitem {
+    margin-left: 80px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.divimglastitem {
+    position: absolute;
+    bottom: -2em;
+    width: 240px;
+    height: 220px;
+    margin-left: 80px;
+    filter: drop-shadow(5px 5px 5px black);
+}

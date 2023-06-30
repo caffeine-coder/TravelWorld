@@ -7,12 +7,4 @@ export const Data = [
     question: 'Can I change my plan later?',
     answer: 'Yes, that can be done.',
   },
-  {
-    question: 'Can I change my plan later?',
-    answer: 'Yes, that can be done.',
-  },
-  {
-    question: 'Can I change my plan later?',
-    answer: 'Yes, that can be done.',
-  },
 ];

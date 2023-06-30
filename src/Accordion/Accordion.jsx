@@ -83,6 +83,7 @@ function Accordion() {
     }
 
     return(
+        <div>
         <IconContext.Provider value={{color: '#06698F', size:'25px'}}>
        <AccordionSection>
         <Container>
@@ -107,6 +108,7 @@ function Accordion() {
         </Container>
        </AccordionSection>
        </IconContext.Provider>
+       </div>
     )
 }
 
