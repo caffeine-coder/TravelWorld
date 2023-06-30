@@ -1,7 +1,12 @@
 import React from "react";
 import './traveltypelist.css';
 import TravelType from "../TravelType/TravelType";
-import sweden from '../images/solo.png'
+import solo from '../images/solo.png'
+import luxury from '../images/luxury.png'
+import adventure from '../images/adventure.png'
+import business from '../images/business.png'
+import wellness from '../images/wellness.png'
+import safari from '../images/safari.png'
 
 
 
@@ -9,12 +14,12 @@ import sweden from '../images/solo.png'
 
 function TravelTypeList() {
     return (<div className="traveltypelist">
-        <TravelType src={sweden} traveltype='Solo'/>
-        <TravelType src={sweden} traveltype='Luxury'/>
-        <TravelType src={sweden} traveltype='Safari'/>
-        <TravelType src={sweden} traveltype='Adventure'/>
-        <TravelType src={sweden} traveltype='Business'/>
-        <TravelType src={sweden} traveltype='Wellness'/>
+        <TravelType src={solo} traveltype='Solo'/>
+        <TravelType src={luxury} traveltype='Luxury'/>
+        <TravelType src={safari} traveltype='Safari'/>
+        <TravelType src={adventure} traveltype='Adventure'/>
+        <TravelType src={business} traveltype='Business'/>
+        <TravelType src={wellness} traveltype='Wellness'/>
 
     </div>)
 }

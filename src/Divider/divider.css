@@ -31,23 +31,25 @@
 }
 
 .divimg {
-    position: absolute;
-    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6em;
     left:10em;
-    bottom: -5em;
     z-index: 1;
 }
 
 .divimgitem {
     margin-left: 80px;
+    z-index: 1;
     filter: drop-shadow(5px 5px 5px black);
 }
 
 .divimglastitem {
-    position: absolute;
     bottom: -2em;
     width: 240px;
     height: 220px;
     margin-left: 80px;
     filter: drop-shadow(5px 5px 5px black);
+    z-index: 1;
 }

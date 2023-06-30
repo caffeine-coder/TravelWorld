@@ -5,21 +5,30 @@
 
 .itenary, .traveltype, .date {
  font-size: 3em;
- margin-left: 100px;
  margin-top: 80px;
 }
 
+.itenary{
+  margin-left: -19em;
+}
+.traveltype {
+  margin-left: -21.5em;
+}
+
+.date {
+  margin-left: -22em;
+}
 
 .guests {
   font-size: 2em;
-  margin-left: 100px;
   margin-top: 80px;
+  margin-left: -30em;
  }
 
  .food {
   font-size: 2em;
-  margin-left: 100px;
-  margin-top: 20px;
+  margin-left: -34em;
+  margin-top: 30px;
  }
 
 .itenary .destination {
@@ -28,7 +37,21 @@
 
 .faq{
   font-size: 2em;
-  margin-left: 20em;
   margin-top: 100px;
 }
 
+.rights {
+ display: flex;
+ height: 4em;
+ justify-content: center;
+ align-items: center;
+ background-color:#06698F ;
+ color: white;
+ font-size: 0.8em;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

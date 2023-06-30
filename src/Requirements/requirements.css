@@ -1,11 +1,11 @@
 .requirements {
     position: relative;
-    margin-left: 90px;
+    margin-left: 6em;
     margin-top: 50px;
 }
 
 .textcontainer {
-    width: 80em;
+    width: 90em;
     height: 10em;
     border-radius: 20px;
     background-color: white;
@@ -32,7 +32,7 @@
 .btn {
     position: absolute;
     top: 55px;
-    left: 72em;
+    left: 80em;
     appearance: none;
   background: #06698F;
   border-radius: 15px;
